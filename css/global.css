@@ -13,6 +13,7 @@
     --text-color: black;
     --border-color: black;
     --accent-color: #a5c7cf;
+    --mark-color: red;
     --background-color: white;
     scroll-behavior: smooth;
     font-family: "DotGothic16", sans-serif;
@@ -28,4 +29,8 @@ img {
 .container {
     max-width: 1200px;
     margin: auto;
+}
+
+.marked {
+    color: var(--mark-color) !important;
 }
